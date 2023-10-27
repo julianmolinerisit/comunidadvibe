@@ -14,3 +14,21 @@ a {
 * {
   box-sizing: border-box;
 }
+
+
+.loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white; /* Fondo blanco */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading-screen img {
+  max-width: 100%; /* Asegura que la imagen se adapte a dispositivos móviles */
+  max-height: 100%; /* Asegura que la imagen no desborde el alto de la pantalla */
+}
